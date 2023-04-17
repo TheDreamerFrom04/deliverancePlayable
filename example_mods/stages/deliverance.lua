@@ -31,22 +31,22 @@ function onCreate()
 	scaleObject('smokey2', 1.7, 1.7);
 
 	makeLuaSprite('garStageFadeBG','garStagebgRise',-400,-50)
-	setScrollFactor('garStageReleaseBG',0.9,0.9)
-	scaleObject('garStageReleaseBG',0.9,0.9)
+	setScrollFactor('garStageFadeBG',0.9,0.9)
+	scaleObject('garStageFadeBG',0.9,0.9)
 
 	makeLuaSprite('garStageFade','garStageRise',-400,-99)
-	setScrollFactor('garStageRelease',0.9,0.9)
-	scaleObject('garStageRelease',0.9,0.9)
+	setScrollFactor('garStageFade',0.9,0.9)
+	scaleObject('garStageFade',0.9,0.9)
 
 	makeLuaSprite('gardeadFade', 'gardeadFade', -200, 600);
-	setScrollFactor('gardead', 0.9, 0.9);
-	scaleObject('gardead', 1.0, 1.0);
+	setScrollFactor('gardeadFade', 0.9, 0.9);
+	scaleObject('gardeadFade', 1.0, 1.0);
 
-	makeLuaSprite('barCounter','bar/barcounter',-200,-175)
+	makeLuaSprite('barCounter','bar/barcounter',-150,-75)
 	setScrollFactor('barCounter',0.9,0.9)
 	scaleObject('barCounter',0.36,0.36)
 
-	makeLuaSprite('barBG','bar/barbg',-200,-175)
+	makeLuaSprite('barBG','bar/barbg',-150,-75)
 	setScrollFactor('barBG',0.9,0.9)
 	scaleObject('barBG',0.36,0.36)
 

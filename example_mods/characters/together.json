@@ -59,8 +59,8 @@
 	"no_antialiasing": false,
 	"image": "characters/Marigold",
 	"position": [
-		100,
-		-360
+		150,
+		-260
 	],
 	"healthicon": "together",
 	"flip_x": false,
