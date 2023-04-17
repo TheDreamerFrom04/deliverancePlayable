@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				10,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "clorox idle"
+		},
+		{
+			"offsets": [
+				103,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "clorox left"
+		},
+		{
+			"offsets": [
+				69,
+				1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "clorox right"
+		},
+		{
+			"offsets": [
+				-27,
+				51
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "clorox up"
+		},
+		{
+			"offsets": [
+				112,
+				-47
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "clorox down"
+		},
+		{
+			"offsets": [
+				-27,
+				50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "clorox alt up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/cloverFading",
+	"position": [
+		0,
+		-40
+	],
+	"healthicon": "clover",
+	"flip_x": false,
+	"healthbar_colors": [
+		9,
+		128,
+		39
+	],
+	"camera_position": [
+		210,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

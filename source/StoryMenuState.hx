@@ -171,13 +171,13 @@ class StoryMenuState extends MusicBeatState
 
 		var tracksSprite:FlxSprite = new FlxSprite(FlxG.width * 0.07, bgSprite.y + 425).loadGraphic(Paths.image('Menu_Tracks'));
 		tracksSprite.antialiasing = ClientPrefs.globalAntialiasing;
-		add(tracksSprite);
+		//add(tracksSprite);
 
 		txtTracklist = new FlxText(FlxG.width * 0.05, tracksSprite.y + 60, 0, "", 32);
 		txtTracklist.alignment = CENTER;
 		txtTracklist.font = rankText.font;
 		txtTracklist.color = 0xFFe55777;
-		add(txtTracklist);
+		//add(txtTracklist);
 		// add(rankText);
 		add(scoreText);
 		add(txtWeekTitle);
@@ -351,12 +351,13 @@ class StoryMenuState extends MusicBeatState
 		{
 			sprDifficulty.loadGraphic(newImage);
 			sprDifficulty.x = leftArrow.x + 60;
-			sprDifficulty.x += (308 - sprDifficulty.width) / 3;
+			sprDifficulty.x += (400 - sprDifficulty.width);
 			sprDifficulty.alpha = 0;
-			sprDifficulty.y = leftArrow.y - 15;
+			//sprDifficulty.y = leftArrow.y - 15;
+			sprDifficulty.y += 4;
 
 			if(tweenDifficulty != null) tweenDifficulty.cancel();
-			tweenDifficulty = FlxTween.tween(sprDifficulty, {y: leftArrow.y + 15, alpha: 1}, 0.07, {onComplete: function(twn:FlxTween)
+			tweenDifficulty = FlxTween.tween(sprDifficulty, {y: 4, alpha: 1}, 0.07, {onComplete: function(twn:FlxTween)
 			{
 				tweenDifficulty = null;
 			}});

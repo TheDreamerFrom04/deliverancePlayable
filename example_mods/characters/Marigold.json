@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				10
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "MariGoldIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				4,
+				-46
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "MariGoldUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				12,
+				-26
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "MariGoldLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-31,
+				23
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "MariGoldRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				-37
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "MariGoldDown",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Marigold",
+	"position": [
+		-150,
+		-160
+	],
+	"healthicon": "marigold",
+	"flip_x": false,
+	"healthbar_colors": [
+		222,
+		102,
+		176
+	],
+	"camera_position": [
+		-230,
+		-400
+	],
+	"sing_duration": 4,
+	"scale": 2.4
+}

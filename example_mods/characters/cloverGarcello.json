@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				10
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "clorox idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				103,
+				6
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "clorox left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				69,
+				1
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "clorox right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-27,
+				51
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "clorox up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				112,
+				-47
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "clorox down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-27,
+				50
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "clorox alt up",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/cloverGarcello",
+	"position": [
+		0,
+		-40
+	],
+	"healthicon": "clover",
+	"flip_x": false,
+	"healthbar_colors": [
+		9,
+		128,
+		39
+	],
+	"camera_position": [
+		210,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}
